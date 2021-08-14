@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#eee">
+        <androidx.cardview.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            app:cardCornerRadius="4dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/imagepost"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:scaleType="center"
+                    android:src="@drawable/centroreciclado"
+                    android:contentDescription="@string/tofo" />
+                <TextView
+                    android:id="@+id/postTittle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imagepost"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/reclar_es_vacano"
+                    android:textSize="20sp"
+                    android:textColor="@color/colorPrimaryText"
+                    />
+                <TextView
+                    android:id="@+id/centro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/postTittle"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/reclar_es_vacano"
+                    android:textSize="15sp"
+                    android:textColor="@color/black_overlay"
+                    />
+
+                <TextView
+                    android:id="@+id/body"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_below="@id/centro"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/jung_eun_bi_m_s_conocida_como_eunha_es_una_cantante_y_actriz_surcoreana_es_conocida_por_ser_miembro_de_la_banda_coreana_femenina_gfriend"
+                    android:textColor="@color/colorPrimaryText"/>
+
+                <Button
+                    android:id="@+id/contctanos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/contactanos"
+                    android:background="@drawable/bottom"
+                    android:layout_below="@id/body"
+                    android:layout_marginTop="20dp"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#ffc107"
+                    />
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+
+</ScrollView>

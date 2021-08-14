@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">RecycleGo</string>
+    <string name="nombre">Nombre</string>
+    <string name="correo">Correo</string>
+    <string name="pass">Contraseña</string>
+    <string name="confirm_pass">Confirmar Contraseña</string>
+    <string name="register">Registrar</string>
+    <string name="success">Registro exitoso</string>
+    <string name="login">Login</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">Registrado</string>
+    <string name="ip">192.168.1.15</string>
+    <string name="tofo">TODO</string>
+    <string name="email">Email</string>
+    <string name="sign_in">Sign In</string>
+
+    <!--Manejo de errores-->
+    <string name="emailerror">Ingrese su correo para iniciar sesión</string>
+    <string name="passerror">Ingrese su contraseña para inicar sesión</string>
+    <string name="campoEmail">Este campo es obligatorio</string>
+    <string name="welcome">Welcome</string>
+    <string name="logout">Logout</string>
+    <string name="jung_eun_bi_m_s_conocida_como_eunha_es_una_cantante_y_actriz_surcoreana_es_conocida_por_ser_miembro_de_la_banda_coreana_femenina_gfriend">Jung Eun-bi, más conocida como Eunha, es una cantante y actriz surcoreana. Es conocida por ser miembro de la banda coreana femenina GFriend.</string>
+    <string name="editar_foto">Editar Foto</string>
+    <string name="inicio">Inicio</string>
+    <string name="perfil">Perfil</string>
+    <string name="mapa">Mapa</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="reclar_es_vacano">Reclar es vacano</string>
+    <string name="contactanos">contactanos!</string>
+    <string name="escribe_el_titulo_de_tu_post">Escribe el titulo de tu post</string>
+    <string name="titulo">Titulo</string>
+    <string name="cuerpo">Cuerpo</string>
+    <string name="publicar">Publicar</string>
+    <string name="escriba_el_cuerpo_de_tu_post">Escriba el cuerpo de tu post</string>
+    <string name="fecha_pub">Fecha pub</string>
+    <string name="ver_talleres">ver talleres</string>
+
+</resources>

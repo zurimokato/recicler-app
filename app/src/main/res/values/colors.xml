@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Defautl theme colors-->
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#2f3173</color>
+    <color name="colorAccent">#f50057</color>
+
+
+
+    <!-- Theme Registrer Colors-->
+    <color name="colorPrimary2">#4CAF50</color>
+    <color name="colorPrimaryDark2">#388E3C</color>
+    <color name="colorAccent2">#FFC107</color>
+    <color name="colorLightPrimayry">#C8E6C9</color>
+    <color name="colorTexIcon">#FFFFFF</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecundaryText">#757575</color>
+    <color name="colorDibider">#DBDBDB</color>
+    <color name="black_overlay">#66000000</color>
+</resources>
